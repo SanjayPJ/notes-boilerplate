@@ -1,0 +1,32 @@
+# Project information
+site_name: Notes boilerplate
+site_author: Sanjay PJ
+
+nav:
+  - Home: "index.md"
+  - "User Guide":
+      - "Writing your docs": "writing-your-docs.md"
+      - "Styling your docs": "styling-your-docs.md"
+  - About:
+      - "License": "license.md"
+      - "Release Notes": "release-notes.md"
+  - "Issue Tracker": "https://example.com/"
+
+# Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
